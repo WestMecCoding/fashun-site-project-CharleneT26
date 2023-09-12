@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHUN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {padding: 0;
+            margin: 0;}
+
+        #container 
+        {max-width: 1920px;}
+
+        #logo {}
+
+        header {}
+
+        header nav {}
+
+        header nav a {}
+
+        #logo h1
+            {font-family: merriweather from Google Fonts; 
+            font-weight: 600;}
+
+
+        @media (min-width: 0px) and (max-width:768px)
+        
+            {div#splash-image 
+               {background-image: url('./768_assets/fashun_banner_768.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                width: 100%;
+                height: 50vh;
+                background-position: top left}
+            h1 
+                {font-size: 2rem;
+                text-align: center;}
+
+            .gradiant
+                {background:linear-gradient(315deg, orange, white);
+                margin: auto;
+                width: 85%;}
+
+    
+            #jacket
+                {background:linear-gradient(45deg, orange, white);
+                background-image: url("768_assets/fashun_jacket_768.png");
+                background-repeat: no-repeat;
+                height: 200px;
+                width: 300px;
+                margin: auto;
+                background-position: center center;
+                padding: 40px;}}
+
+        
+         @media (min-width: 768px)
+            {div#splash-image
+                {background-image: url('./1280_assets/fashun_banner_1280.png');
+                background-size: cover;
+                min-width: 768px;
+                max-width: 100%;
+                height: 50vh;
+                background-position: center center;}}
+
+
+        @media (min-width: 1280px)
+            {div#splash-image
+                {background-image: url('./1920_assets/fashun_banner_1920.jpg');
+                background-size: cover;
+                min-width: 1280px;
+                max-width: 100%;
+                height: 50vh;
+                background-position: top center}} 
+
+                
+        #shoe 
+            {background-image: url("./768_assets/fashun_shoe_768.png");}
+
+
+    </style>
+
+
+</head>
+
+
+<body>
+    <div id="container">
+
+
+        <header>
+
+            <div id="logo">
+                <h1 style="font-size: 4em; text-align: center;">FASHUN</h1>
+            </div>
+
+            <nav>
+                <a href="">Fall Fashions</a>
+                <a href="">Shop Now</a>
+                <a href="">Fashun Club</a>
+            </nav>
+
+        </header>
+
+        <div id="splash-image">
+        </div>
+
+        <main>
+
+
+            <div id="jacket">
+                <img src="./768_assets/fashun_jacket_768.png" alt="" width="300" height="200">
+            </div>
+
+            <div class="sale-items">
+                <img src="./768_assets/fashun_shoe_768.png" alt="" width="300" height="200">
+            </div>
+            
+            <div class="gradiant">
+                
+            </div>
+
+            
+        </main>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- THE CODE GRAVE YARD RETURNS
+
+
+                <source media="(min-width: 1000px)" srcset="fashun_banner_1920">
+            
+                <source media="(min width: 0px)" srcset="fashun_banner_768">
+
+                <img class= "default" src="./1280_assets/fashun_banner_1280.png" alt="" width="" height="">
+
+                <img src="">
+
+
+!THIS ONE WORKS!
+
+                <source media="(min-width: 1000px)" scr="fashun_banner_1920">
+                <source media="(min-width: 0px)" scr="fashun_banner_768">
+
+                <img class="default" src="./1280_assets/fashun_banner_1280.png"/>
+
+                <img src="./768_assets/fashun_banner_768.png" width="" length="" alt=""/>
+
+
+
+
+
+            <picture>
+                <source media="(min-width: 1000px)" scr="fashun_banner_1920">
+                <source media="(min-width: 0px)" scr="fashun_banner_768">
+
+                <img class="default" src="./1280_assets/fashun_banner_1280.png"/>
+
+                <img src="./768_assets/fashun_banner_768.png" width="" length="" alt=""/>
+            
+            </picture>
+
+
+
+
+
+
+                <source media="(min-width: 1000px)" srcset="fashun_banner_1920">
+                <source media="(min-width: 0px)" srcset="fashun_banner_768">
+                <img src="./768_assets/fashun_banner_768.png" width="" height="" alt="" />
+
+
+
+
+            picture img
+                {width: 30%;}
+
+
+            picture img.default > picture:nth-child(3)
+                {display: none;}
+
+
+
+
+            <img src="./768_assets/fashun_banner_768.png" alt="" width="300">
+            <img src="./1280_assets/fashun_banner_1280.png" alt="" width="">
+            <img src="./1920_assets/fashun_banner_1920.jpg" alt="" width="">
+-->
+
+
+
